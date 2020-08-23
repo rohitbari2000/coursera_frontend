@@ -18,32 +18,36 @@
     }
 
     p{
+        margin:0px;
+        padding:5px;
+    }
+
+    section{
         padding:20px;
-        margin-top: 0px;
-        width:90%;
-        margin-left:auto;
-        margin-right:auto;
+        position: relative;
+        margin:10px;
         background-color: aqua;
         border: 2px solid black;
         font-weight: bold;
+        overflow:auto;
     }
 
     .p1{
         text-align: center;
         width:33%;
-        position: relative;
+        padding-top:0px;
+        position:relative;
         float:right;
-        right:23px;
-        margin-bottom:15px;
-        margin-left:auto;
+        right:-20px;
+        top:-20px;
+        padding-right:0px;
+        clear:both;
+        border:2px solid black;
+        border-right:0px;
+        border-top:0px;
         background-color: red;
         font-style:italic;
-        border:2px solid black;
-        overflow:auto;  
        }
-    .row{
-        width:100%;
-    }
 
     @media (min-width:992px){
         .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-10,.col-lg-11,.col-lg-12{
@@ -174,30 +178,35 @@
 </style>    
 <body>
     <h1>INDIA</h1>
-    <div class="row">
         <div class="col-lg-4 col-md-6">
+        <section>
             <div class="p1">
                 Maharashtra
             </div>
             <p>
                 Maharashtra is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau. As the home of the Marathi people, Maharashtra is the second-most populous state in India.
             </p>
+        </section>
         </div>
         <div class="col-lg-4 col-md-6">
+        <section>
             <div class="p1">
                 Rajasthan
             </div>
             <p>
                 Rajasthan is a state in northern India. The state covers an area of 342,239 square kilometres or 10.4 percent of the total geographical area of India. It is the largest Indian state by area and the seventh largest by population.
             </p>
+        </section>
         </div>
         <div class="col-lg-4 col-md-6">
+        <section>
             <div class="p1">
                 Madhya pradesh
             </div>
             <p>
                 Madhya Pradesh, a large state in central India, retains landmarks from eras throughout Indian history. Begun in the 10th century, its Hindu and Jain temples at Khajuraho are renowned for their carvings of erotic scenes, most prominently Kandariya Mahadeva, a temple with more than 800 sculptures.
             </p>
+        </section>
         </div>
     </div>
 </body>
