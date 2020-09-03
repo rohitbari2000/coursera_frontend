@@ -58,6 +58,7 @@ h2{
     background-color: aqua;
     padding:10px;
     padding-top:0px;
+    margin-top:15px;
 }
 
 .navbar-header button.navbar-toggle{
